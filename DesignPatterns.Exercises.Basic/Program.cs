@@ -1,3 +1,4 @@
+using DesignPatterns.Exercises.Basic.Builder;
 using DesignPatterns.Exercises.Basic.FactoryMethod;
 using DesignPatterns.Exercises.Basic.Observer;
 
@@ -8,9 +9,12 @@ public static class Program
     public static void Main(string[] args)
     {
         // factory method exercise
-        // new FactoryMethodClient().Run();
+        new FactoryMethodClient().Run();
+        
+        // builder exercise
+        // new BuilderPatternClient().Run();
         
         // observer exercise
-        new ObserverExerciseClient().Run();
+        // new ObserverExerciseClient().Run();
     }
 }
